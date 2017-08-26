@@ -21,7 +21,7 @@ Note we don't expect code, but known tools that solve these situations or a desc
 
 ### What ratios of expected work time would you give to each phase?
 
-In my experience analyzing data is what takes more tiem, followed by transforming the data as I do not know which type of data we are talking about. Then I added the most time for testing and checking as it is the hardest and most important part of the process for working with data. 
+In my experience analyzing data is what takes more time, followed by transforming the data as I do not know which type of data we are talking about. Then I added the most time for testing and checking as it is the hardest and most important part of the process for working with data. 
 
 1. 5%
 2. 30%
@@ -32,8 +32,6 @@ In my experience analyzing data is what takes more tiem, followed by transformin
 ### What tools, frameworks and programming languages would you use to do this?
 
 I started writing down Scrapy, Jupyter and Pandas to do analysis and python scripts for the transformation BUT Apache Spark it is much better for processing large amounts of data. And looking at that I see that there is an Apache tool that can be used to do web crawl. I never used it but I see that it has plugins for other apache tools And relies on Apache Hadoop for the data structures. I never used this tools before in a project BUT if I would do it for large amount of data I would go with them.
-
-pip install pyspark
 
 1. Apache Nutch.
 2. Jupyter, Pandas & Apache Spark.
